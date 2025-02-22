@@ -1,10 +1,10 @@
-/* Fix overflow and background issues */
+
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   width: 100%;
-  background: white; /* or any color you want as the base background */
+  background: white; 
 }
 
 #root {
@@ -13,7 +13,7 @@ body {
   overflow-x: hidden;
   width: 100%;
   position: relative;
-  background: white; /* match with body background */
+  background: white; 
 }
 
 .container {
@@ -105,7 +105,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* Enhanced Navbar Styles */
+
 .navbar {
   background: rgba(255, 255, 255, 0.95) !important;
   backdrop-filter: blur(10px);
@@ -114,7 +114,7 @@ body {
   padding: 0.75rem 0;
 }
 
-/* Update Navbar Container Spacing */
+
 .navbar .container {
   max-width: 1440px !important;
   width: 95% !important;
@@ -122,7 +122,7 @@ body {
   margin: 0 auto;
 }
 
-/* Logo section adjustments */
+
 .navbar-brand {
   padding: 0.5rem 0;
   margin-right: 3rem;
@@ -149,19 +149,19 @@ body {
   transform: scale(1.05);
 }
 
-/* Logo text styles */
+
 .navbar-brand span {
   font-size: 1.5rem;
   font-weight: 700 !important;
   letter-spacing: 0.5px;
 }
 
-/* Regular nav links with border radius */
+
 .navbar .nav-link {
   font-size: 1rem;
   padding: 0.8rem 1.2rem !important;
   margin: 0 0.4rem;
-  border-radius: 12px;  /* Reduced from 25px */
+  border-radius: 12px;  
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -171,25 +171,25 @@ body {
   color: white !important;
   transform: translateY(-2px);
   background: linear-gradient(to right, var(--primary-dark), var(--primary));
-  border-radius: 12px;  /* Match with base style */
+  border-radius: 12px;  
 }
 
-/* Navigation section spacing */
+
 .navbar-collapse {
-  justify-content: flex-end; /* Push items to the right */
+  justify-content: flex-end; 
 }
 
-/* Active link state */
+
 .navbar .nav-link.active {
   background: linear-gradient(to right, var(--primary-dark), var(--primary));
   color: white !important;
-  border-radius: 12px;  /* Match with base style */
+  border-radius: 12px;  
 }
 
-/* Adjust button spacing */
+
 .navbar .btn {
-  padding: 0.8rem 1.2rem; /* Reduce button padding */
-  margin-left: 0.5rem; /* Add space between buttons */
+  padding: 0.8rem 1.2rem; 
+  margin-left: 0.5rem; 
   border-radius: 8px;
   font-weight: 500;
   letter-spacing: 0.3px;
@@ -215,12 +215,12 @@ body {
   box-shadow: 0 6px 20px rgba(0, 119, 182, 0.25);
 }
 
-/* Animated underline for nav links */
+
 .navbar .nav-link::after {
   display: none;
 }
 
-/* Mobile Navigation */
+
 .navbar-toggler {
   border: none;
   padding: 0.5rem;
@@ -260,7 +260,7 @@ body {
   bottom: -8px;
 }
 
-/* Mobile adjustments */
+
 @media (max-width: 991px) {
   .container,
   .navbar .container {
@@ -278,13 +278,13 @@ body {
   }
 
   .navbar .nav-link {
-    border-radius: 8px;  /* Even smaller radius on mobile */
+    border-radius: 8px;  
     padding: 0.8rem 1.2rem !important;
     margin: 0.3rem 0;
   }
 
   .navbar .nav-link:hover {
-    border-radius: 8px;  /* Match with mobile base style */
+    border-radius: 8px;  
     transform: translateX(5px);
   }
 
@@ -314,7 +314,7 @@ body {
 
   footer {
     padding: 1rem 0 0.5rem;
-    margin-top: 1rem; /* Reduced margin top for mobile */
+    margin-top: 1rem; 
   }
 
   footer hr {
@@ -333,7 +333,7 @@ body {
 }
 
 @keyframes float {
-  /* Remove this keyframe */
+ 
 }
 
 .floating-element {
@@ -358,7 +358,7 @@ body {
   z-index: 0;
 }
 
-/* Feature Cards Hover Effects */
+
 .feature-card {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -413,10 +413,10 @@ body {
   z-index: 1;
 }
 
-/* Footer Styles */
+
 .footer-card {
-  padding: 1rem; /* Reduced padding */
-  margin-bottom: 0; /* Remove bottom margin */
+  padding: 1rem; 
+  margin-bottom: 0; 
   background: rgba(255, 255, 255, 0.05);
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -473,9 +473,9 @@ body {
 
 .contact-info {
   background: rgba(255, 255, 255, 0.05);
-  padding: 0.75rem; /* Reduced padding */
+  padding: 0.75rem; 
   border-radius: 8px;
-  margin-top: 1rem; /* Reduced margin */
+  margin-top: 1rem; 
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -497,10 +497,10 @@ body {
   font-size: 0.9rem;
   opacity: 0.8;
   transition: all 0.3s ease;
-  padding: 4px 16px; /* Reduced padding */
+  padding: 4px 16px; 
   border-radius: 20px;
   display: inline-block;
-  margin: 0; /* Remove margin */
+  margin: 0; 
 }
 
 .copyright:hover {
@@ -509,7 +509,7 @@ body {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-/* Update button hover effects in navbar */
+
 .navbar .btn-outline-primary:hover {
   background: var(--primary);
   color: white;
@@ -526,7 +526,7 @@ body {
   border: none;
 }
 
-/* Update Features Section styles */
+
 #features {
   margin-top: 0;
   padding-top: 3rem;
@@ -535,7 +535,7 @@ body {
   z-index: 1;
 }
 
-/* Optional: Add a smooth transition between sections */
+
 .hero-section::after {
   content: "";
   position: absolute;
@@ -547,7 +547,7 @@ body {
   z-index: 1;
 }
 
-/* Hero Image Styles */
+
 .hero-image-container {
   position: relative;
   width: 100%;
@@ -565,7 +565,7 @@ body {
   filter: drop-shadow(0 8px 16px rgba(0, 119, 182, 0.1));
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 1200px) {
   .hero-image {
     max-width: 70%;
@@ -594,7 +594,7 @@ body {
   }
 }
 
-/* Update hero section spacing */
+
 .hero-section {
   min-height: 80vh;
   display: flex;
@@ -604,7 +604,7 @@ body {
   overflow: hidden;
   width: 100%;
   margin-bottom: 0;
-  padding: 4rem 0; /* Reduced padding */
+  padding: 4rem 0; 
 }
 
 @media (max-width: 768px) {
@@ -614,7 +614,7 @@ body {
   }
 }
 
-/* Make specific elements non-selectable */
+
 .navbar,
 .navbar *,
 footer h5,
@@ -627,7 +627,7 @@ footer h5,
   -ms-user-select: none;
 }
 
-/* Make hero section paragraph text selectable */
+
 .hero-section p {
   user-select: text !important;
   -webkit-user-select: text !important;
@@ -636,7 +636,6 @@ footer h5,
   cursor: text;
 }
 
-/* Hero Section Button Styles */
 .hero-section .btn {
   padding: 0.8rem 2rem;
   transition: all 0.3s ease;
@@ -670,7 +669,7 @@ footer h5,
   box-shadow: 0 6px 20px rgba(0, 119, 182, 0.25);
 }
 
-/* Optional: Add shine effect on hover */
+
 .hero-section .btn::after {
   content: "";
   position: absolute;
@@ -692,9 +691,9 @@ footer h5,
   left: 100%;
 }
 
-/* Footer Logo Styles */
+
 .footer-logo {
-  filter: brightness(0) invert(1);  /* Make logo white */
+  filter: brightness(0) invert(1); 
   opacity: 0.9;
   transition: all 0.3s ease;
 }
@@ -704,7 +703,7 @@ footer h5,
   transform: scale(1.05);
 }
 
-/* Footer About Section with Background Logo */
+
 .about-section {
   position: relative;
   overflow: hidden;
